@@ -15,5 +15,10 @@ public class conditionals {
         else{
             System.out.println(c+" is the largest number");
         }
+
+        //using ternary operator
+        int max = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+        System.out.println(max);
+        
     }
 }
